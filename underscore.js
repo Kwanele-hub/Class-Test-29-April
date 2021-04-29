@@ -7,7 +7,7 @@ const underScore = (number) => {
 
     for (var i = 0; i < stringNumber.length; i++) {
 
-      if (stringNumber[i]  && stringNumber[i + 1] ) {
+      if (stringNumber[i] % 2 == 0 && stringNumber[i + 1] % 2 == 0) {
 
         numbers.push(stringNumber[i] + "_")
       }}
