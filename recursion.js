@@ -23,4 +23,10 @@ const jj = (num)=>{
 
 jj(1);
 
+// -------------------
+const exponential = (e, b) => {
+  if (b == 0) return 1
+  return e * exponential(e, b - 1)
+}
 
+console.log(getFactorial(5))
